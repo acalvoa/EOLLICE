@@ -1,0 +1,40 @@
+.header{
+	z-index: 2;
+}
+.header .navbar{
+	background-color: rgba(56, 163, 236, 0.8);
+	border-color: rgba(205, 240, 242, 0.8);
+	background-image: none;
+	height: 100px;
+}
+.navbar-brand img{
+	height: 70px;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.25);
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+	background-color: #357ebd;
+}
+.header .background{
+	position: absolute;
+	height: 100%;
+	background-size: cover;
+	opacity: 0.6;
+}
+.header a{
+	color:#FFF;
+	font-size: 0.8em;
+}
+.header a:hover{
+	background-color: none;
+}
+.header .titulos-cabecera{
+	font-size: 1.4em;
+}
+.header .icon-proyecto{
+	height: 20px;
+	width: 27px;
+}

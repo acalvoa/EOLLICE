@@ -1,0 +1,51 @@
+.background_page{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("../../images/platform/background2.jpg");
+	background-size: cover;
+	opacity: 0.6;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+}
+.seguidor{
+	height: 15px;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+.seguidor a{
+	text-decoration: none;
+	color: #555;
+}
+.riesgos{
+	position: relative;
+ 	margin-top: 10px;
+ 	width: 100%;
+ 	height: 1000px;
+ 	z-index: 3;
+ 	background-image: url("../../images/platform/overlay_diagonal.png");
+}
+.riesgos .logo img{
+	height: 70px;
+	margin-top: 10px;
+}
+.riesgos .titulo{
+	color: #444;
+}
+.riesgos .cabecera{
+	margin-top: 60px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.riesgos .cabecera-bot{
+	border-bottom: 1px rgb(194, 194, 194) solid;
+	height: 10px;
+	margin-bottom: 20px;
+}
+h3{
+	color:rgba(56, 123, 180, 1);;
+}
+p{
+	text-align: justify;
+}

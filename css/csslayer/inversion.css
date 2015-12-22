@@ -1,0 +1,639 @@
+.background_page{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("../../images/platform/background2.jpg");
+	background-size: cover;
+	opacity: 0.6;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+}
+.inversion{
+	position: relative;
+ 	margin-top: 10px;
+ 	width: 100%;
+ 	height: auto;
+ 	z-index: 3;
+ 	background-image: url("../../images/platform/overlay_diagonal.png");
+ 	padding-bottom: 100px;
+}
+.inversion h2 {
+	font-size: 2.9em;
+}
+.inversion h3 {
+	font-size: 2em;
+}
+.inversion h6 {
+	font-size: 1.3em;
+	font-weight: 800;
+	padding-top: 0px;
+	height: 17px;
+}
+.inversion h7 {
+	font-size: 0.9em;
+	font-weight: 800;
+}
+.inversion .seguidor{
+	height: 30px;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+.inversion .seguidor a{
+	text-decoration: none;
+	color: #555;
+}
+.inversion .tabulado{
+	position: relative;
+	margin-top: 35px;
+}
+.inversion .logo img{
+	height: 70px;
+	margin-top: 10px;
+}
+.inversion .titulo{
+	color: #444;
+}
+.inversion .cabecera{
+	margin-top: 60px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.inversion .cabecera-bot{
+	border-bottom: 1px rgb(194, 194, 194) solid;
+	height: 10px;
+	margin-bottom: 20px;
+}
+.inversion .tabs{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: #DDD;
+	height: 60px;
+}
+.inversion .tabs div{
+	padding-top: 12px;
+	font-size: 1.7em;
+	font-weight: 800;
+	cursor: pointer;
+}
+.inversion .tabs numero{
+	float: left;
+}
+.inversion .tabs tabtitle{
+	line-height: 1.5em;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.inversion .tabs numero div{
+	height: 1.3em;
+	width: 1.3em;
+	font-size: 1.1em;
+	line-height: 0.35em;
+	vertical-align: middle;
+	text-align: center;
+	border-radius: 1.3em;
+	background-color: #FFF;
+	color: #333;
+}
+.inversion .tabs .active{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: rgba(50, 118, 177,1);
+	color: #EEE;
+	height: 60px;
+}
+.inversion .proyecto{
+	height: 700px;
+	background-color: #FFF;
+}
+.inversion .proyecto .titulos{
+	padding-left: 20px;
+	padding-top: 5px;
+	height: 60px;
+}
+.inversion .proyecto .foto-proyecto{
+	height: auto;
+	width: 100%;
+	height: 205px;
+}
+.inversion .proyecto .foto-proyecto .imagen-class{
+	position:absolute;
+	left: 0px;
+	top:0px;
+	height: inherit;
+	width: inherit;
+	z-index: 1;
+}
+.inversion .proyecto .foto-proyecto .imagen-class img{
+	width: 100%;
+	height: 205px;
+}
+.inversion .proyecto .foto-proyecto .membrete-class{
+	position:absolute;
+	left: 0px;
+	top:0px;
+	height: inherit;
+	width: inherit;
+	z-index: 2;
+	background-color: transparent !important;
+}
+.inversion .proyecto .foto-proyecto .membrete-class img{
+	background-color: transparent !important;
+	width: 100%;
+	height: 205px;
+}
+.inversion .proyecto .descripcion{
+	min-height: 90px;
+	padding: 0 0 0 0;
+	padding-right: 20px;
+}
+.inversion .proyecto .progressbar{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	height: 20px;
+}
+.inversion .proyecto .border-right{
+	border-right: 1px #CCC solid;
+}
+.inversion .proyecto #boton-simulacion{
+	margin-top: 0px;
+}
+.inversion .proyecto .codigoredes{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.inversion .proyecto .resumen{
+	margin-top: 30px;	
+}
+.inversion .proyecto .content{
+	border:1px #CCC solid;
+	height: 241px;
+	background-color: #EEE;
+}
+.inversion .proyecto .info1{
+	height: 12.5%;
+	background-color: #FFF;
+	border-bottom: 1px #CCC solid;
+	padding: 2px;
+}
+.inversion .proyecto .infobrevedescripcion{
+	height: 49%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	background-color: #FFF;
+}
+.inversion .proyecto .info1 .titulo{
+	float: left;
+	width: 55%;
+	padding-left: 20px;
+	font-size: 1.1em;
+}
+.inversion .proyecto .costo h6{
+	text-align: left;
+}
+.inversion .proyecto .info1 .valor{
+	float: left;
+	width: 37%;
+	font-size: 1.1em;
+}
+.inversion .proyecto .info1 .tooltips{
+	float: left;
+	width: 7%;
+}
+.inversion .proyecto .info2{
+	height: 12.5%;
+	background-color: #EEE;
+	border-bottom: 1px #CCC solid;
+	padding: 2px;
+}
+.inversion .proyecto .info2 .titulo{
+	float: left;
+	width: 55%;
+	padding-left: 20px;
+	font-size: 1.1em;
+}
+.inversion .proyecto .info2 .valor{
+	float: left;
+	font-size: 1.1em;
+	width: 37%;
+}
+.tooltips-big{
+	font-size: 1em;
+	float: right;
+	margin-top: 2px;
+	width: 10%;
+	font-size: 1em;
+	color:#FFF;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	font-weight: normal;
+	background-color: rgb(66, 139, 202);
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.tooltips{
+	margin-top: 2px;
+	float: left;
+	width: 10%;
+	font-size: 1em;
+	color:#FFF;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	font-weight: normal;
+	background-color: rgb(66, 139, 202);
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.inversion .proyecto .info1 .tooltips{
+	margin-top: 2px;
+	float: left;
+	width: 7%;
+	font-size: 1em;
+	color:#FFF;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	font-weight: normal;
+	background-color: rgb(66, 139, 202);
+	text-align: center;
+	line-height: 20px;
+	vertical-align: middle;
+}
+.inversion .proyecto .resumen .tab{
+	padding-right: 0px;
+}
+.inversion .proyecto .resumen .tab .active{
+	background-color: #EEE;
+	border-right: 1px transparent solid;
+}
+.inversion .proyecto .resumen .tab li{
+	position: relative;
+	height: 50px;
+	width: 100%;	
+	list-style: none;
+	font-size: 1.3em;
+	padding: 10px;
+	font-weight: 800;
+	cursor: pointer;
+}
+.inversion .proyecto .resumen .tab ul{
+	padding-left:0px;
+	margin-left:0px;
+	border: 1px #CCC solid;
+	border-right: none;
+}
+.inversion .proyecto .costo{
+	margin-top: 10px;
+}
+.inversion .resumen_info{
+	height: inherit;
+}
+.inversion .usuario_info{
+	height: inherit;
+	display: none;
+}
+.inversion .empresa_info{
+	height: inherit;
+	display: none;
+}
+.inversion .pagos_info{
+	height: inherit;
+	display: none;
+}
+.inversion .simulacion{
+	height: 700px;
+	background-color: #FFF;
+	display: none;
+	padding-top: 20px;
+}
+.inversion .tuinversion{
+	display: none;
+}
+.inversion .simulacion .detalles{
+	border: 1px #666 solid;
+	height: 52%;
+	padding: 10px;
+	padding-left: 15px;
+}
+.inversion .simulacion .detalles #montoinversion{
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.inversion .simulacion .detalles #montoinversion_input{
+	height: 50px;
+}
+.inversion .simulacion .detalles .infodetalles .titulo{
+	float: left;
+	padding-right: 20px;
+}
+.inversion .simulacion .detalles .infodetalles .valor{
+	float: left;
+}
+.inversion .simulacion .detalles .simulacion_box{
+	border: 1px #666 solid;
+	padding: 5px;
+	padding-left: 30px;
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 10px;
+	height: 44%;
+}
+.inversion .simulacion .detalles .simulacion_box h6{
+	font-size: 0.9em;
+	color: rgb(92, 184, 92);
+}
+.inversion .simulacion .detalles .simulacion_box .botondeinvertir{
+	margin-top: 20px;
+}
+.inversion .simulacion .detalles .simulacion_box .botondeinvertir #boton-invertir{
+	width: auto;
+	text-align: center;
+}
+.inversion .simulacion .titulos{
+	margin-top:10px;
+}
+.inversion .simulacion .costo{
+	border: 1px #666 solid;
+	height: 10%;
+}
+.inversion .simulacion .costo .info1{
+	height: 50%;
+	background-color: #FFF;
+	padding-top: 5px;
+}
+.inversion .simulacion .costo .info2{
+	height: 50%;
+	background-color: #EEE;
+	padding-top: 5px;
+}
+.inversion .simulacion .retornos{
+	border: 1px #666 solid;
+	height: 20%;
+}
+.inversion .simulacion .retornos .info1{
+	height: 25%;
+	background-color: #FFF;
+	padding-top: 5px;
+}
+.inversion .simulacion .retornos .info2{
+	height: 25%;
+	background-color: #EEE;
+	padding-top: 5px;
+}
+.inversion .simulacion .retornos .titulo{
+	float: left;
+	width: 60%;
+	font-size: 1.1em;
+}
+.inversion .simulacion .retornos .valor{
+	float: left;
+	width: 25%;
+	font-size: 1.1em;
+}
+.inversion .simulacion .costo .titulo{
+	float: left;
+	width: 60%;
+	font-size: 1.1em;
+}
+.inversion .simulacion .costo .valor{
+	float: left;
+	width: 25%;
+	font-size: 1.1em;
+}
+.inversion .simulacion .titulo .tooltips{
+	margin-right: 10px;
+}
+.inverion .tuinversion{
+	height: 700px;
+}
+.inversion .tuinversion .resumen{
+	background-color: #FFF;
+	height: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.inversion .tuinversion .resumen .inversion_resumen{
+	border: 1px #333 solid;
+	height: 260px;	
+	border-radius: 10px;
+	padding: 10px;
+}
+.inversion .tuinversion .resumen .inversion_resumen .cabecera-inv h5{
+	font-size: 1.4em;
+	color:rgba(50, 118, 177,1);
+	font-weight: bold;
+}
+.inversion .tuinversion .resumen .inversion_proyecto{
+	border: 1px #333 solid;
+	height: 260px;	
+	border-radius: 10px;
+	padding: 10px;
+}
+.inversion .tuinversion .resumen .inversion_proyecto .cabecera-resu h5{
+	font-size: 1.3em;
+}
+.inversion .tuinversion .resumen .inversion_proyecto .datos-resumen .titulo{
+	float: left;
+	padding-top: 9px;
+	width: 56%;
+	font-weight: 800;
+}
+.inversion .tuinversion .resumen .inversion_proyecto .datos-resumen .titulo h5{
+	font-weight: bold;
+}
+.inversion .tuinversion .resumen .inversion_proyecto .datos-resumen .valor{
+	float: left;
+	padding-top: 9px;
+	width: 44%;
+}
+.inversion .tuinversion .resumen .inversion_proyecto img{
+	height: 185px;
+}
+.inversion .tuinversion .resumen .inversion_resumen .datos-resumen .titulo{
+	float: left;
+	width: 56%;
+	font-weight: 800;
+}
+.inversion .tuinversion .resumen .inversion_resumen .datos-resumen .titulo h5{
+	font-weight: bold;
+}
+.inversion .tuinversion .resumen .inversion_resumen .datos-resumen .valor{
+	float: left;
+	width: 44%;
+}
+.inversion .tuinversion .inversion_contrato{
+	background-color: #FFF;
+	height: 360px;
+	margin-top: 20px;
+}
+.inversion .tuinversion .inversion_contrato .cabecera-contrato{
+	height: 50px;
+	background-color: rgba(50, 118, 177,1);
+	color: #FFF;
+	font-size: 1.3em;
+	padding-top: 13px;
+}
+.inversion .tuinversion .inversion_contrato .cuerpo-contrato{
+	height: 230px;
+	padding: 15px;
+}
+.inversion .tuinversion .contrato-texto{
+	overflow-y: scroll;
+	height: 230px;
+}
+.inversion .tuinversion .chechbox-contrato{
+	padding: 25px;
+	height: 80px;
+}
+.inversion .tuinversion .inversion_pago{
+	background-color: #FFF;
+	height: 280px;
+	margin-top: 20px;
+	display: none;
+}
+.inversion .tuinversion .inversion_pago .cabecera-contrato{
+	height: 50px;
+	background-color: rgba(50, 118, 177,1);
+	color: #FFF;
+	font-size: 1.3em;
+	padding-top: 13px;
+}
+.inversion .tuinversion .inversion_pago h1{
+	font-size: 1.2em;
+	margin-top: 0px;
+}
+.inversion .tuinversion .inversion_pago h2{
+	font-size: 1em;
+}
+/*MEDIOS DE PAGO*/
+.medios_pago{
+	float: left;
+	margin-top: 1.5em; 
+	width: 100%;
+	height: 50%;
+}
+.medios_pago .khipu_option{
+	float: left;
+	width: 4%;
+	padding-top: 2em;
+	text-align: center;
+}
+.medios_pago .khipu_logo{
+	float: left;
+	margin-top: 0.5em;
+	width: 20%;
+}
+.medios_pago .khipu_description{
+	float: left;
+	width: 25%;
+	text-align: justify;
+}
+.medios_pago .manual_option{
+	float: left;
+	width: 4%;
+	margin-left: 2%;
+	padding-top: 2em;
+	text-align: center;
+}
+.medios_pago .manual_logo{
+	float: left;
+	width: 20%;
+	margin-top: 0.5em;
+}
+.medios_pago .manual_description{
+	float: left;
+	width: 25%;
+	text-align: justify;
+}
+.pago-accion-confirmar{
+	float: left;
+	margin-top: 30px;
+}
+.inversion .tuinversion .transfer_manual{
+	background-color: #FFF;
+	height: 380px;
+	margin-top: 20px;
+	display: none;
+}
+.inversion .tuinversion .cabecera-transfer-manual{
+	height: 50px;
+	background-color: rgba(50, 118, 177,1);
+	color: #FFF;
+	font-size: 1.3em;
+	padding-top: 13px;
+}
+#transfer-manual-modal .valor{
+	float: left;
+	margin-right: 10px;
+	margin-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #CCC;
+	height: 30px;
+	padding-top: 3px;
+	border-radius:5px;
+	font-weight: 800;
+}
+#transfer-manual-modal .titulos{
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	height: 30px;
+	padding-top: 4px;
+
+}
+#transfer-manual-modal .codigo-transfer-manual{
+	padding-top:10px; 
+	padding-left:20px; 
+	padding-bottom: 10px;
+	border-radius: 5px;
+	background: #CCC;
+	font-weight: 800;
+	text-align: center;	
+}
+.cuenta_bancaria {
+	background-color: #FFF;
+	height: 150px;
+	margin-top: 20px;
+}
+.cuenta_bancaria .cabecera-banco{
+	height: 50px;
+	background-color: rgba(50, 118, 177,1);
+	color: #FFF;
+	font-size: 1.3em;
+	padding-top: 13px;
+}
+.cuenta_bancaria .cuerpo-banco{
+	height: auto;
+	padding: 25px;
+}
+.info-detallada{
+	margin-top:10px;
+	text-align: center;
+}
+.info-detallada:first-child{
+	margin-top:15px;
+	text-align: center;
+}
+.info-detallada img{
+	cursor: pointer;
+}
+.info-detallada img{
+	cursor: pointer;
+}
+.info-detallada h6{
+	font-size:  1em;
+	line-height: 1.15em;
+	text-align: center;
+	margin-top: 7px;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+}

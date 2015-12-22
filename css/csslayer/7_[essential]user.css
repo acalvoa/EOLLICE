@@ -1,0 +1,8 @@
+.user-data-input{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.no-padding-top{
+	margin-top: 15px !important;
+	margin-bottom:0px !important;
+}

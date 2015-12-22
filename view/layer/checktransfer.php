@@ -1,0 +1,1 @@
+<section class="background_page">&nbsp;</section>

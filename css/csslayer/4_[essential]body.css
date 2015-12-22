@@ -1,0 +1,51 @@
+body{
+	color: rgb(76, 76, 76);
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 25px;
+}
+h1{
+	font-size: 3.5em;
+	font-weight: 800;
+}
+h3{
+	font-size: 2.5em;
+	font-weight: 800;
+}
+h2{
+	font-size: 2em;
+	font-weight: 800;
+}
+h4{
+	font-size: 1.3em;
+}
+h5{
+	font-size: 1.1em;
+	text-align: justify;
+}
+h6{
+	font-size: 1em;
+	text-align: justify;
+}
+h9{
+	font-size: 0.8em;
+
+}
+.col-padding{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.col-padding-20{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+.col-marging-20{
+	margin-right: 20px;
+	margin-left: 20px;
+}
+.marging-20{
+	margin: 20px;
+}
+.blanco{
+	background: #FFF;
+}

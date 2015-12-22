@@ -1,0 +1,214 @@
+.background_page{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("../../images/platform/background2.jpg");
+	background-size: cover;
+	opacity: 0.6;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+}
+.seguidor{
+	height: 15px;
+	margin-top: 5px;
+	font-size: 0.8em;
+}
+.seguidor a{
+	text-decoration: none;
+	color: #555;
+}
+.listaproyectos{
+	position: relative;
+ 	margin-top: 10px;
+ 	width: 100%;
+ 	height: 1000px;
+ 	z-index: 3;
+ 	background-image: url("../../images/platform/overlay_diagonal.png");
+}
+.listaproyectos .logo img{
+	height: 70px;
+	margin-top: 10px;
+}
+.listaproyectos .titulo{
+	color: #444;
+}
+.listaproyectos .cabecera{
+	margin-top: 60px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+.listaproyectos .cabecera-bot{
+	border-bottom: 1px rgb(194, 194, 194) solid;
+	height: 10px;
+	margin-bottom: 20px;
+}
+.listaproyectos .proyectobox{
+	position: relative;
+	height: 200px;
+	background-color: #FFF;
+}
+.listaproyectos .proyectobox .imagen{
+	float: left;
+	height: 100%;
+	width: 25%;
+	padding: 6px;
+}
+.listaproyectos .proyectobox .imagen .imagen-class{
+	position:absolute;
+	left: 0px;
+	top:0px;
+	height: inherit;
+	width: inherit;
+	z-index: 1;
+}
+.listaproyectos .proyectobox .imagen .membrete-class{
+	position:absolute;
+	left: 0px;
+	top:0px;
+	height: inherit;
+	width: inherit;
+	z-index: 2;
+	background-color: transparent !important;
+}
+.listaproyectos .proyectobox .imagen .membrete-class img{
+	background-color: transparent !important;
+}
+.listaproyectos .proyectobox img{
+	height: 100%;
+	width: 100%;
+}
+.listaproyectos .proyectobox .detalles{
+	float: left;
+	width: 75%;
+	height: 100%;
+}
+.listaproyectos .proyectobox .detalles .titulo{
+	float: left;
+	width: 100%;
+	height: 25%;
+}
+.listaproyectos .proyectobox .detalles h3{
+	font-size: 1.4em !important;
+	padding-left: 20px;
+}
+.listaproyectos .proyectobox .detalles .bajada1{
+	float: left;
+	width: 95%;
+	height: 20%;
+}
+.listaproyectos .proyectobox .detalles .info1{
+	float: left;
+	height: 100%;
+	padding-left: 20px;
+	width: 50%;
+}
+.listaproyectos .proyectobox .detalles .info1 .titulo{
+	float: left;
+	height: 40%;
+	width: 55%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info1 .detalle{
+	float: left;
+	height: 60%;
+	width: 40%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info2{
+	float: left;
+	height: 100%;
+	padding-left: 20px;
+	width:35%;
+}
+.listaproyectos .proyectobox .detalles .info3{
+	float: left;
+	height: 100%;
+	width:23%;
+}
+.listaproyectos .proyectobox .detalles .info4{
+	float: left;
+	height: 100%;
+	padding-left: 20px;
+	width: 41%;
+}
+.listaproyectos .proyectobox .detalles .info4 .detalle{
+	float: left;
+	height: 100%;
+	width: 30%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info2 .monto{
+	float: left;
+	height: 100%;
+	width: 33%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info3 .inversionista{
+	float: left;
+	height: 100%;
+	width: 85%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info3 .detalle{
+	float: left;
+	height: 100%;
+	width: 15%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info2 .inversionista{
+	float: left;
+	height: 100%;
+	width: 70%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .info4 .tiempo{
+	float: left;
+	height: 100%;
+	width: auto;
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.listaproyectos .proyectobox .detalles .info2 .detalle{
+	float: left;
+	height: 100%;
+	width: 40%;
+	font-size: 1.3em;
+	padding-top: 10px;
+}
+.listaproyectos .proyectobox .detalles .bajada2{
+	float: left;
+	width: 95%;
+	height: 20%;
+}
+.listaproyectos .proyectobox .detalles .barra{
+	float: left;
+	width: 70%;
+	height: 30%;
+	padding-left: 20px;
+	padding-top: 25px;
+}
+.listaproyectos .proyectobox .detalles .btn-inversion{
+	float: left;
+	width: 30%;
+	height: 20%;
+	padding-top: 10px;
+	padding-left: 40px;
+}
+.listaproyectos .fichaproyecto{
+	margin-bottom: 20px;
+
+}
+.Time{
+	font-size: 1.2em !important;
+	line-height: 1.5em;
+	vertical-align: bottom;
+}

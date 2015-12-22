@@ -1,0 +1,11 @@
+.background_page{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-image: url("../../images/platform/background2.jpg");
+	background-size: cover;
+	opacity: 0.6;
+	z-index: 0;
+	top: 0px;
+	left: 0px;
+}
